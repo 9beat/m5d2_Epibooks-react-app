@@ -1,44 +1,3 @@
-/* .App-header {
-    background-color: #353535;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-} */
-/* 
-.App-link {
-    color: #61dafb;
-} */
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-/* 
-.custom-img-height {
-    height: 20px;
-} */
-
-/* .border-bottom {
-    border-bottom: 2px solid black !important;
-} */
-
-.bg-image {
-    background-image: url(../assets/travel.png);
-    background-position: center;
-}
-/* 
-.border-bottom {
-    border-bottom: 2px solid black !important;
-} */
-
 .bg-image {
     background-image: url(../assets/travel.png);
     background-position: center;
@@ -59,8 +18,4 @@
 
 img {
     min-height: 100%;
-}
-
-.selected {
-    box-shadow: 0 0 20px 2px rgb(0, 0, 0) !important;
 }

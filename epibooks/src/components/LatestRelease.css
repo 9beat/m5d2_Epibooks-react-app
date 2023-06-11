@@ -2,11 +2,24 @@
     color: #61dafb;
 }
 
-/* .book-image {
-    min-height: auto;
-    min-width: fit-content;
-} */
-
 body {
     background-color: #ffe6951e;
+}
+
+.book-image {
+    object-fit: contain;
+    height: 70%;
+}
+
+.body-card {
+    min-height: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-title {
+    text-align: center;
+    padding: 20px;
 }
